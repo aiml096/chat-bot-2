@@ -3,7 +3,7 @@ uvicorn[standard]==0.23.2
 python-dotenv==1.0.1
 pydantic==2.6.2
 pinecone-client==2.2.1
-langchain==0.1.243
+langchain==0.1.2
 langchain-community==0.0.256
 huggingface-hub==0.23.3
 transformers==4.44.0       # pure Python, no Rust needed
