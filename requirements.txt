@@ -1,12 +1,18 @@
-fastapi==0.115.2
-uvicorn[standard]==0.23.2
-python-dotenv==1.0.1
-pydantic==2.6.2
-pinecone-client==2.2.1
-langchain==0.1.2
-langchain-community==0.0.2
-huggingface-hub==0.23.3
-transformers==4.44.0       # pure Python, no Rust needed
-torch==2.5.0       # CPU version, prebuilt wheel
-sentencepiece==0.1.99      # required by transformers
-requests==2.31.0
+# Flask backend
+Flask==2.2.5
+flask-cors==3.1.1
+python-dotenv==1.0.0
+
+# LangChain + Groq
+langchain==0.1.0
+langchain-community==0.0.184
+langchain-pinecone==0.0.24
+langchain-groq==0.0.8
+
+# Pinecone client
+pinecone-client==6.2.1
+
+# Embeddings (CPU-only)
+torch==2.3.1+cpu --index-url https://download.pytorch.org/whl/cpu
+transformers==4.34.0
+sentence-transformers==2.2.2
