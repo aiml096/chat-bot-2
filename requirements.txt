@@ -7,6 +7,6 @@ langchain==0.1.2
 langchain-community==0.0.2
 huggingface-hub==0.23.3
 transformers==4.44.0       # pure Python, no Rust needed
-torch==2.2.0+cpu           # CPU version, prebuilt wheel
+torch==2.2.0       # CPU version, prebuilt wheel
 sentencepiece==0.1.99      # required by transformers
 requests==2.31.0
