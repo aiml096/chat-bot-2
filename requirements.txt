@@ -4,7 +4,7 @@ python-dotenv==1.0.1
 pydantic==2.6.2
 pinecone-client==2.2.1
 langchain==0.1.2
-langchain-community==0.0.256
+langchain-community==0.0.2
 huggingface-hub==0.23.3
 transformers==4.44.0       # pure Python, no Rust needed
 torch==2.2.0+cpu           # CPU version, prebuilt wheel
