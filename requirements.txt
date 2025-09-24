@@ -6,6 +6,6 @@ langchain-community==0.3.27
 langchain-pinecone==0.2.12
 langchain-groq==0.3.8
 pinecone-client==5.0.1
-torch==2.5.1+cpu --index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1  
 transformers==4.56.2
 sentence-transformers==2.2.2
