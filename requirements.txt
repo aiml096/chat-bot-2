@@ -8,4 +8,4 @@ langchain-groq==0.3.8
 pinecone-client==5.0.1
 torch==2.5.1
 transformers==4.46.2
-sentence-transformers==2.7.0
+sentence-transformers==2.6.0
