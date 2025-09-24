@@ -4,7 +4,7 @@ python-dotenv==1.0.1
 langchain-community
 langchain-pinecone
 langchain-groq
-pinecone-client==5.0.1
+pinecone-client
 torch==2.5.1
 transformers==4.46.2
 sentence-transformers==2.7.0
