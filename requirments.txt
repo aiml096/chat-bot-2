@@ -1,0 +1,8 @@
+fastapi==0.99.1
+uvicorn==0.23.1
+langchain # Your Langchain version
+pinecone-client==2.2.0
+langchain-pinecone
+langchain-community
+langchain-groq
+python-dotenv==1.0.0
