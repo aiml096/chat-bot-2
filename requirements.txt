@@ -6,3 +6,4 @@ langchain-pinecone
 langchain-community
 langchain-groq
 python-dotenv
+sentence-transformers
